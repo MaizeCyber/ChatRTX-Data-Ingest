@@ -43,9 +43,9 @@ def process_pdf_files(root_folder):
                 shutil.copy2(source_file_path, destination_file_path)
 
 # Replace 'input_path' with the path to the folder you want to check
-input_path = r"C:/Users/1889b/AppData/Local/NVIDIA/ChatWithRTX/RAG/trt-llm-rag-windows-main/dataset"
+input_path = r"C:/PathtoInputDirectory"
 # Replace 'output_path' with the path to the folder where you want to save the extracted text
-output_path = r"C:/Users/1889b/AppData/Local/NVIDIA/ChatWithRTX/RAG/trt-llm-rag-windows-main/dataset_input"
+output_path = r"C:/PathtoOutputDirectory"
 
 if os.path.isdir(output_path):
     remove_previous_output_files(output_path)
